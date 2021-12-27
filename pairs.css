@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #cf3996;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.start-game-button {
+    padding: 10px 30px;
+    background-color: #cf3996;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.start-game-button:hover {
+    background-color: white;
+    outline: 1.5px solid #cf3996;
+    color: #cf3996;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 480px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #cf3996;
+    color: #cf3996;
+    font-weight: 900;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    color: white;
+    transition-duration: 1s;
+}
+
+.card-on-click {
+    transform: rotate(360deg);
+    background-color: white;
+    outline: 2px solid #cf3996;
+    color: #cf3996;
+}
+
+.card-on-click:hover {
+    color: #cf3996;
+}
+
+.opened-card {
+    background-color: white;
+    color: #4aee9c;
+}
+
+.opened-card:hover {
+    color: #4aee9c;
+}
+
+.banner {
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 30px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.button-new-game {
+    background-color: #4aee9c;
+    color:  white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-new-game:hover {
+    background-color: white;
+    color: #4aee9c;
+    outline: 2px solid #4aee9c;
+}
+
+.game-win {
+    outline: 2px solid #4aee9c;
+    color: #4aee9c;
+}
+
+.gameover {
+    outline: 2px solid #ee4a7b;
+    color: #ee4a7b;
+}
+
+.timer {
+    font-size: 70px;
+    color: #cf3996;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
